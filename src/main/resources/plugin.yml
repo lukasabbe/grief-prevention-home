@@ -1,0 +1,10 @@
+name: GriefPreventionHome
+version: '${project.version}'
+main: me.lukasabbe.griefpreventionhome.GriefPreventionHome
+api-version: '1.20'
+commands:
+  plots:
+    description: Get a list of your plots and there id:s
+    usage: /<command> [player]
+    permission:
+      GPH.plots
